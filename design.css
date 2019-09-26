@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 9vh;
+    background-color: #35424A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-bottom: 3px solid #E8491D;
+}
+
+.padding{
+    padding: 10px 50px 20px 120px;
+}
+
+.margin-right{
+    margin-right: 30px;
+}
+
+.red{
+    color:#E8491D !important;
+}
+
+.Left
+{
+    display:flex;
+    padding:10px 20px;
+}
+.left h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+    width: 20%;
+    display:flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right p
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image
+{
+    background-image: url("img/img1.png");
+    background-size: cover;
+    background-position: center;
+    height: 41vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centre
+{
+    width: 70%;
+    height: auto;
+}
+
+.centre h2
+{
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.centre p
+{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+.subscribe
+{
+    height: 10vh;
+    background-color: #35424A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.subscribe p
+{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input
+{
+    width:200px;
+    height: 34px;
+}
+
+.subscribe-btn
+{
+    min-height: 30px;
+    padding: 9px 25px;
+    font-size: 12px;
+    background-color: #E8491D;
+    color: white;
+    border: 1px solid #E8491D;
+}
+.tools
+{
+    height: 31vh;
+    display: flex;
+    justify-content: center;
+}
+
+.tools > div
+{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tools > div > img
+{ 
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+}
+.tools h2{
+    margin-top: 25px;
+    font-size: 18px;
+}
+.tools p{
+    margin-top: 20px;
+    font-size: 11px;
+}
+
+footer{
+    height: 9vh;
+    background-color: #E8491D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.text0
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width:70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text1{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.text1 p{
+    margin-top: 20px;
+    line-height: 23px;
+}
+.text2{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #35424A;
+    color: white;
+    padding: 20px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+.text3{
+    height: fit-content;
+    width:25%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #35424A;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    line-height: 23px;
+}
+.text3 h2{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.about-padding{
+    padding: 10px 50px;
+}
+
+.mar-bot-20{
+    margin-bottom: 20px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.content{
+    width: 70%;
+    padding: 40px;
+}
+.block{
+    margin-bottom: 20px;
+}
+.content1{
+    min-height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #E6E6E6;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #d3d3d3;
+    padding: 25px;
+}
+.content2{
+    margin-top: 20px;
+    min-height:80px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #d3d3d3;
+    background-color: #E6E6E6;    
+}
+.content2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 30px;
+}
+
+section{
+    display: flex;    
+}
+
+.content-right{
+    width: 25%;
+    background-color: #35424A;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: fit-content;
+    color: white;
+}
+
+.content-right > h3{
+    margin: 15px 0;
+    font-size: 22px;
+}
+
+.form-input{
+    margin-bottom: 5px;
+}
+
+.form-input > label{
+    padding-bottom: 5px;
+}
+
+.form-input > input{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+form > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-right-ser > input{
+    width: 250px;
+    padding: 5px;
+    height: 34px;
+}
